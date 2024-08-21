@@ -1,0 +1,22 @@
+HTML Tags:
+1. <h1> - Used for the main heading.
+2. <br> - Start picture in new line
+3. <nav> - to navigate between different html webpages through hyperlinks
+4. <img> to add a picture
+5. <title> to name tab
+6. <p> to add text and spaces
+7. <style> to add CSS properties
+8. <div> to format sections of my homepage
+9. <body> to design the main party of my homepage
+10. <script> - to add JavaScript
+
+CSS Properties:
+1. color - Used to set the text color.
+2. margin - Used to set the margin around elements.
+3. text-align - center pictures
+4. display: inline-block - have pictures next to each other
+5. font-size - Used to set the size of the text.
+
+JavaScript and Bootstrap:
+JavaScript to leave comments.
+Bootstrap to make timeline and allign pictures.

@@ -1,0 +1,164 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<style>
+    .timeline {
+        position: relative;
+        padding: 2rem 0;
+        list-style: none;
+    }
+
+    .timeline::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 2px;
+        background: #E3BC9A; /* Adjust the color to match your wedding theme */
+        left: 50%;
+        margin-left: -1px;
+    }
+
+    .timeline-item {
+        position: relative;
+        width: 50%;
+        padding: 1rem 0;
+    }
+
+    .timeline-item::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background: #6c757d;
+        left: 50%;
+        margin-left: -10px;
+        z-index: 1;
+    }
+
+    .timeline-item.left {
+        left: 0;
+        text-align: right;
+    }
+
+    .timeline-item.right {
+        left: 50%;
+    }
+
+    .timeline-item .timeline-content {
+        padding: 1rem;
+        background: #f8f9fa;
+        border-radius: 0.5rem;
+        position: relative;
+        z-index: 2;
+    }
+
+    .timeline-item .timeline-time {
+        font-weight: bold;
+        color: #E3BC9A; /* Match the timeline line color */
+    }
+</style>
+
+<div class="container">
+    <h2 class="text-center my-4">Wedding Timeline</h2>
+    <ul class="timeline">
+        <li class="timeline-item left">
+            <div class="timeline-content">
+                <span class="timeline-time">Wednesday 10/02 11:30 AM</span>
+                <h5>Brunch</h5>
+                <p>Buffet at Garden Court</p>
+            </div>
+        </li>
+        <li class="timeline-item right">
+            <div class="timeline-content">
+                <span class="timeline-time">Wednesday 10/02 4:30 PM</span>
+                <h5>Cocktail Hour</h5>
+                <p>CAROUSEL BAR - PLAZA HOTEL</p>
+            </div>
+        </li>
+        <li class="timeline-item left">
+            <div class="timeline-content">
+                <span class="timeline-time">Wednesday 10/02 6:00 PM</span>
+                <h5>Dinner</h5>
+                <p>Steak?</p>
+            </div>
+        </li>
+        <li class="timeline-item right">
+            <div class="timeline-content">
+                <span class="timeline-time">Thursday 10/03 9:30 AM - 11:30 AM</span>
+                <h5>Hair & Makeup</h5>
+                <p></p>
+            </div>
+        </li>
+        <li class="timeline-item left">
+            <div class="timeline-content">
+                <span class="timeline-time">Thursday 10/03 12:00 PM</span>
+                <h5>Tequila Shots</h5>
+                <p>Carousel Bar</p>
+            </div>
+        </li>
+        <li class="timeline-item right">
+            <div class="timeline-content">
+                <span class="timeline-time">Thursday 10/03 12:15 PM</span>
+                <h5>Uber Pick-up</h5>
+                <p> in front of the Plaza - next to the Carousel Bar</p>
+            </div>
+        </li>
+        <li class="timeline-item left">
+            <div class="timeline-content">
+                <span class="timeline-time">Thursday 10/03 12:30 - 1:00 PM</span>
+                <h5>Ceremony</h5>
+                <p>The Sure Thing Chapel</p>
+            </div>
+        </li>
+        <li class="timeline-item right">
+            <div class="timeline-content">
+                <span class="timeline-time">Thursday 10/03 1:00 - 1:30 PM</span>
+                <h5>Nina&Tom photoshoot</h5>
+                <p>Fremont Street</p>
+            </div>
+        </li>
+        <li class="timeline-item left">
+            <div class="timeline-content">
+                <span class="timeline-time">5:30 PM</span>
+                <h5>Drive through main strip</h5>
+                <p></p>
+            </div>
+        </li>
+        <li class="timeline-item right">
+            <div class="timeline-content">
+                <span class="timeline-time"> 6 - 9 PM</span>
+                <h5>Oktoberfest</h5>
+                <p>Hofbrauhaus!</p>
+            </div>
+        </li>
+        <li class="timeline-item left">
+            <div class="timeline-content">
+                <span class="timeline-time"> After that </span>
+                <h5>Bellagio Water Fountains</h5>
+                <p> Main Strip</p>
+            </div>
+        </li>
+    </ul>
+
+    <!--
+    <form id="commentForm">
+        <textarea id="comment" placeholder="Leave a comment"></textarea>
+        <button type="submit">Submit</button>
+    </form>
+    <div id="commentsSection"></div>
+
+    <script>
+    document.getElementById('commentForm').addEventListener('submit', function(event) {
+        event.preventDefault();
+        const comment = document.getElementById('comment').value;
+        const commentsSection = document.getElementById('commentsSection');
+        const newComment = document.createElement('p');
+        newComment.textContent = comment;
+        commentsSection.appendChild(newComment);
+        document.getElementById('comment').value = ''; // Clear the textarea
+    });
+    </script>
+    -->
+</div>
